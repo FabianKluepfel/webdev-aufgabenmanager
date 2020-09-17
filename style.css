@@ -1,5 +1,3 @@
-
-
 .sidebar{
     position: fixed;
     left: -250px;
@@ -29,8 +27,7 @@
     box-sizing: border-box;
     border-top: 1px solid rgba(255,255,255,.1);
     border-bottom: 1px solid black;
-    transition: .4s;
-    
+    transition: .4s;   
 }
 
 ul li:hover a{
@@ -60,6 +57,7 @@ label #btn{
     padding: 6px 12px;
     transition: all .5s;
 }
+
 label #cancel{
     z-index: 1111;
     left: -195px;
@@ -74,6 +72,7 @@ label #cancel{
     left: 0;
 
 }
+
 #check:checked ~ label #btn{
     left: 250px;
     opacity: 0;
@@ -82,6 +81,4 @@ label #cancel{
 
 #check:checked ~ label #cancel{
     left: 195px;
-
-
 }
