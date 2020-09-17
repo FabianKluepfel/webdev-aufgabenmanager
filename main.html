@@ -6,13 +6,12 @@
     <title>Übersicht</title>
     <link href="https://unpkg.com/tabulator-tables@4.8.1/dist/css/tabulator.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style>
-        body{
-            margin: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
+
     <nav class="navbar navbar-light bg-light justify-content-between">
         <button type="button" onclick="location.href='add.html';"  class="btn btn-primary">+ Add</button>
         <form class="form-inline">
@@ -20,6 +19,26 @@
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </nav>
+
+      <input type="checkbox" id="check">
+      <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+      </label> 
+        <div class = "sidebar">
+        <header>Aufgabenmanager</header>
+        <ul>
+            <li><a href="#"><i class="fas fa-qrcode"></i>Projekt 1</a></li>
+            <li><a href="#"><i class="fas fa-link"></i>Projekt 2</a></li>
+            <li><a href="#"><i class="fas fa-stream"></i>Projekt 3</a></li>
+            <li><a href="#"><i class="fas fa-calendar-week"></i>Kalender</a></li>
+            <li><a href="#"><i class="fas fa-question-circle"></i>Kontakte</a></li>
+            <li><a href="#"><i class="fas fa-sliders-h"></i>Mein Konto</a></li>
+            <li><a href="#"><i class="fas fa-contact"></i>Abmelden</a></li>
+            
+        </ul>
+      </div>
+
     <table class="table">
     <thead>
     <tr>
